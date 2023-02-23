@@ -1,0 +1,35 @@
+Class 1 – 21st of February
+
+Selenium is a tool that helps you to do the automation of your websites.
+It supports various browsers such as Chrome, FireFox, Safari, Edge.
+It supports various programming languages such as Java, Ptython, C# etc.
+Selenium Integration Steps:
+   1)Create an IntelliJ Java Project!
+   2)You downloaded the Selenium Package!
+   3)You integrated the Selenium with IntelliJ!
+   4)Download the ChromeDriver!
+Testing your FIRST code (The Approach):
+   1)Tell the project where your webdriver is located.
+   2)We have to create an instance of the webdriver.
+tip: Every project that is created has to be configured with JAR files and drivers.
+Command:
+   thread.sleep(3000);
+      => it will show millis before 3000 as milliseconds.
+
+Difference between driver.get and driver.navigate =>
+   With navigate you can use driver.navigate().back(); command as well.
+   driver.navigate().forward();
+   driver.navigate().refresh();
+GET will wait until the whole page is loaded.
+NAVIGATE will NOT wait until the whole page is loaded.
+There are two METHODS:
+   1)driver.get();
+   2)driver.navigate();
+
+Difference between driver.close(); and driver.quit(); =>
+   1)CLOSE will close the CURRENT tab.
+   2)QUIT will close the WHOLE browser.
+
+Window Size Management =>
+   driver.manage().window().maximize();
+   driver.manage().window().fullscreen();

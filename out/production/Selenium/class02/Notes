@@ -1,0 +1,23 @@
+how many locators do we have in selenium?  8 locators:
+-ID
+-Name
+-Class
+-LinkText     --> they can only be used with a link and it must have a text  (a link is usually in the tag a)
+         *tip:** the VALUE of the # is a link.
+-Partial Linktext    --> they can only be used with a link
+-TagName
+-Xpath
+-Css Selector
+
+
+why do we need so many locators?  :o
+-- sometimes there might be a locator with duplicate value
+    <input id="email",name="a">
+    <input id="email",name="b">
+
+-- sometimes the developers might not provide you with all the locators
+    <input class=" ">
+
+there are some important things that you should remember while selecting a locator....
+
+if attribute value has a number in it, it is better to avoid it and use an alternative locator!!!!!
