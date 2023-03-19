@@ -15,6 +15,9 @@ public class ImplicitWait {
         // create an instance of WebDriver
         WebDriver driver = new ChromeDriver();
 
+        //for selenium 4 only
+        //WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
+
         //maximize the screen
         driver.manage().window().maximize();
 
