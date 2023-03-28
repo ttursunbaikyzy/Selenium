@@ -9,6 +9,7 @@ import java.util.List;
 
 public class TablesDemo {
     public static void main(String[] args) {
+
         // tell your project where the webdriver is located.
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         // create an instance of WebDriver
